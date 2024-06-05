@@ -222,7 +222,18 @@
     gap: 10px;
     margin-top: 50px;
   }
-
+.sidebar {
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: #eee;
+  z-index: 1000;
+  right: 0;
+  top: 0;
+  display: none;
+}
   .products > div {
     height: auto;
     box-shadow: 0px 0px 10px #6666665e;
