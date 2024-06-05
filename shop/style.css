@@ -241,7 +241,7 @@
 
   .Picture {
     background-image: url(/shop/3249f090-71b1-11ed-a5f1-81abdd76c21a.webp);
-    height: 100px;
+    height: 180px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -251,7 +251,7 @@
     background-color: white;
     height: max-content;
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 5px 30px;
   }
   .form input,
   .form select {
