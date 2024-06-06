@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
 }
+body{
+  background-color: rgb(14 14 39);
+  color: white;
+}
 a:link {
   color: inherit;
   text-decoration: none;
@@ -34,12 +38,13 @@ a:active {
 }
 
 .navbar {
-  background-color: white;
+  background-color: black;
+  color: white;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 0px 10px #999;
+  box-shadow: 0px 0px 10px #9999991e;
 }
 
 .left i,
@@ -49,6 +54,7 @@ a:active {
   background-color: #eee;
   border-radius: 50%;
   cursor: pointer;
+  color: black;
 }
 .meduim a {
   text-decoration: none;
@@ -86,7 +92,6 @@ a:active {
 .products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(4, 1fr); */
   height: auto;
   gap: 50px;
   margin-top: 50px;
@@ -126,7 +131,8 @@ a:active {
 }
 
 .description {
-  background-color: white;
+  background-color: black;
+  color: white;
   text-align: center;
   padding: 5px;
   height: auto;
@@ -155,7 +161,7 @@ a:active {
   height: 100%;
   margin: 0;
   padding: 20px;
-  background-color: #eee;
+  background-color: black;
   z-index: 1000;
   right: 0;
   top: 0;
@@ -389,7 +395,6 @@ a:active {
   }
 
   .description {
-    background-color: white;
     height: max-content;
     text-align: center;
     padding: 20px 5px 30px;
@@ -448,7 +453,6 @@ a:active {
     height: 100%;
     margin: 0;
     padding: 20px;
-    background-color: #eee;
     z-index: 1000;
     right: 0;
     top: 0;
