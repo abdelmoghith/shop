@@ -4,10 +4,6 @@
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
 }
-body{
-  background-color: rgb(14 14 39);
-  color: white;
-}
 a:link {
   color: inherit;
   text-decoration: none;
